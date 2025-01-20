@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Even or Odd Game</h1>
+      <p id="numberDisplay">Number: 0</p>
+
+      <div class="buttons">
+        <button id="evenBtn" onclick="guessEven()">Even</button>
+        <button id="oddBtn" onclick="guessOdd()">Odd</button>
+      </div>
+
+      <p id="result"></p>
+
+      <div class="streak-counter">
+        <p>Current Streak: <span id="currentStreak">0</span></p>
+        <p>Highest Streak: <span id="highestStreak">0</span></p>
+      </div>
+
+      <div class="game-info">
+        <p>Time Left: <span id="timer">10</span> seconds</p>
+        <p>Attempts Left: <span id="attemptsLeft">5</span></p>
+      </div>
+
+      <button id="resetBtn" onclick="resetGame()">Reset Game</button>
+      <p id="gameOverMessage" style="display: none">Game Over!</p>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

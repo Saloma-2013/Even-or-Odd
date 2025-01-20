@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  background-color: rgb(237, 216, 190);
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  font-style: italic;
+  text-shadow: 12px 9px 10px rgb(50, 29, 1);
+  text-align: center;
+  color: rgba(97, 55, 0, 0.901);
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  border: 10px groove sandybrown;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 12px 9px 10px;
+}
+#resetBtn {
+  display: none;
+}
+
+button {
+  background-color: rgb(222, 196, 161);
+  text-shadow: 12px 9px 10px rgb(199, 128, 65);
+  font-size: 16.5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  padding: 3.5px;
+}
